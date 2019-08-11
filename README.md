@@ -1,29 +1,6 @@
-# vue-cli-eslint
+## 坑点or技巧
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 根据vue-cli 3.0+配置成的
+2. 规则配置 .eslintrc.js
+3. 如何需要配置页面编译报错需要修改 vue.config.js中lintOnSave: 'error'
+4. 更多配置参考https://www.jianshu.com/p/bfc7e7329cff
